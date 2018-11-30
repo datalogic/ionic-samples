@@ -1,0 +1,22 @@
+page-home {
+
+	.content {
+		background-color : #5277A8;
+	}
+	
+	.content h3, #barcodeData, #barcodeType, .title{
+		text-align: center;
+	}
+	.title{
+		color : white;
+	}
+
+	.toolbar-background-md{
+		background-color : #080d75;
+	}
+
+	ion-content:not(.content h3){
+		user-select: text;
+	}
+
+}
