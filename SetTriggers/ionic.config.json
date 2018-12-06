@@ -1,0 +1,7 @@
+{
+  "name": "ionic-sample-app-set-triggers",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

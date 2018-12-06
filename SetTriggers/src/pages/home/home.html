@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+    <h3 class="title">
+    	Set Triggers
+    </h3>
+      
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h3 >
+      This app demonstrates how to set Scan Triggers on DATALOGIC devices
+  </h3>
+  <br/>
+  <div id="rootDiv">
+  	<h4>All Available Triggers on this Device</h4>
+  	
+  	<ion-list>
+  		<ion-item *ngFor="let trigger of triggers; let index = index;">
+  		    <ion-label>{{ trigger.name }}</ion-label>
+  		    <ion-toggle [(ngModel)]="triggers[index].enabled" checked="{{ trigger.enabled }}"></ion-toggle>
+  		</ion-item>
+  	</ion-list>
+
+  </div>
+
+  <div class="btn-center"> <button ion-button  round (click)="setTriggers()" >Save Changes</button> </div>
+  <br/> <br/> 
+
+  <button ion-button style="float:left" color="secondary" round (click)="setAllAvailableTriggers(true)" >Enable All</button>
+  <button ion-button style="float:right" color="danger" round (click)="setAllAvailableTriggers(false)" >Disable All</button>
+
+  <!--
+  <button (click)="getAllAvailableTriggers()">Get Triggers</button>
+  <br/>  <br/>
+  <button (click)="setAllAvailableTriggers(true)">Enable All Triggers</button>
+  <br/>  <br/>
+  <button (click)="setAllAvailableTriggers(false)">Disable All Triggers</button>
+  <br/>  <br/>
+  <button (click)="setTriggers()">Set Triggers</button> -->
+</ion-content>
