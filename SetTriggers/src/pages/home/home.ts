@@ -8,14 +8,14 @@ declare let keyboardManager : any;
   templateUrl: 'home.html'
 })
 export class HomePage {
-  triggers  = [];	
+  triggers:{id: number, name: string, enabled: boolean}[]  = []; //an array os supported triggers	
 
   constructor(public navCtrl: NavController) {
   	keyboardManager.getAllAvailableTriggers(
   		(data) => {
 
   			//var obj = data.triggers;
-  			this.triggers =  JSON.parse(JSON.parse(data).triggers);
+  			this.triggers = JSON.parse(data).triggers;
 
   			//alert(arr.length);
   			// var arr = data.triggers;
