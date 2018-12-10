@@ -1,0 +1,7 @@
+{
+  "name": "AutoScanTrigger",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
