@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      <h3 class="title">
+          	AutoScan Trigger
+          </h3>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+	<h3 >
+	    This app demonstrates how to configure AutoScan Trigger on DATALOGIC devices
+	</h3>
+
+	<br/>
+	<div id="rootDiv">
+		<div *ngIf="isAvailable; else noAutoScan">
+
+			<!-- Show Current Range -->
+			<ion-list-header text-center color="primary" > <b>Current AutoScan Range </b> </ion-list-header>
+			<ion-item>
+				<ion-label text-center>{{ currentRange.name }}</ion-label>
+			</ion-item>
+			<br/>
+			<!-- List available ranges -->
+			<ion-list>
+				<ion-list-header text-center color="primary"> <b>Available AutoScan Ranges</b> </ion-list-header>
+				<ion-item *ngFor="let range of supportedRanges;">
+				    <ion-label>{{ range.name }}</ion-label>
+				    <button ion-button  item-end round (click)="setCurrentRange(range.id)" color="secondary" style="width: 40%">Set</button>
+				</ion-item>
+			</ion-list>
+		</div>
+		<ng-template #noAutoScan>
+			<div style="color: red"> <b>Auto Scan is not supported on this device </b></div>
+		</ng-template>
+	</div>
+	<br/>
+
+	<!-- <div style="text-align: center"> <button ion-button color="secondary" (click)="getSupportedRanges()">Get Supported Ranges</button> </div>
+ -->
+	<br/>
+	<!-- <div style="text-align: center"> <button ion-button color="secondary" (click)="getCurrentRange()">Get Current Range</button> </div> -->
+  
+</ion-content>

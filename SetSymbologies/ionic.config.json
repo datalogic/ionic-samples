@@ -1,0 +1,7 @@
+{
+  "name": "ionic-sample-app-set-symbologies",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
