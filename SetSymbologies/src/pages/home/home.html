@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+    <h3 class="title">
+    	Set Symbologies
+    </h3>
+      
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div id="rootDiv">
+  	<h4>A few symbologies to try</h4>
+  	
+  	<ion-list>
+      <ion-item>
+        <ion-label>Aztec</ion-label>
+        <ion-toggle [(ngModel)]="aztec.enable"  checked="{{ aztec.enable }}" ></ion-toggle>
+      </ion-item>
+      <ion-item>
+          <ion-label>Codabar</ion-label>
+          <ion-toggle [(ngModel)]="codabar.enable" checked="{{ codabar.enable }}"></ion-toggle>
+      </ion-item>
+      <ion-item>
+          <ion-label>Code 128</ion-label>
+          <ion-toggle [(ngModel)]="code128.enable" checked="{{ code128.enable }}"></ion-toggle>
+      </ion-item>
+  	</ion-list>
+
+  </div>
+
+  <div class="btn-center"> <button ion-button  round (click)="setSymbologies()" >Save Changes</button> </div>
+  <br/> <br/> 
+
+</ion-content>
