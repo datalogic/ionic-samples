@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.datalogic.examples.ionic" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.datalogic.examples.ionic.setsymbologies" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>SetSymbologies</name>
     <description>Sample to demonstrate how to enable/disable scanner symbologies.</description>
     <author href="http://www.datalogic.com/">Datalogic Applications Group</author>

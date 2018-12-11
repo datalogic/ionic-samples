@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.datalogic.examples.ionic" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.datalogic.examples.ionic.decodelistner" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>DecodeListener</name>
     <description>Sample to demonstrate how to recieve barcode data from Datalogic devices</description>
     <author href="http://www.datalogic.com/">Datalogic Applications Group</author>
@@ -82,6 +82,6 @@
     <plugin name="cordova-plugin-splashscreen" spec="5.0.2" />
     <plugin name="cordova-plugin-ionic-webview" spec="^2.0.0" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.0.5" />
-    <plugin name="cordova-plugin-datalogic" spec="@datalogic/cordova-plugin-datalogic@~0.1.0" />
+    <plugin name="cordova-plugin-datalogic" spec="@datalogic/cordova-plugin-datalogic@^0.2.1" />
     <engine name="android" spec="7.1.2" />
 </widget>
