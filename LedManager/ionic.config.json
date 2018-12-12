@@ -1,0 +1,7 @@
+{
+  "name": "LedManager",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+    	<h3 class="title">
+      		Led Manager
+      	</h3>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+	<h3 >
+	    This app demonstrates how to configure LED's(Good Read LED, Green Spot LED, General Notification LED) on DATALOGIC devices
+	</h3>
+  	
+	<br/>
+
+	<div id="rootDiv">
+		<ion-list *ngFor="let led of ledList;let i=index;">
+			<ion-list-header text-center color="primary"> <b> {{ led.name }} </b> </ion-list-header>
+			<ion-item >
+				<ion-label> Enable </ion-label>
+				<ion-select [(ngModel)]="ledList[i].enable">
+				    <ion-option value="true">True</ion-option>
+				    <ion-option value="false">False</ion-option>
+				</ion-select>
+			</ion-item>
+			<div class="btn-center"><button ion-button round color="secondary" (click)="setLed(i)" >SAVE</button></div>
+			<br/>
+		</ion-list>
+	</div>
+</ion-content>
+
+<!-- *ngFor="let led of ledList;let i=index"  {{ led[i].name }}-->
