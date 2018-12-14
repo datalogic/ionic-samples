@@ -32,4 +32,7 @@ $RECYCLE.BIN/
 
 .DS_Store
 Thumbs.db
-UserInterfaceState.xcuserstate
+UserInterfaceState.xcuserstat
+
+resources/ios
+
