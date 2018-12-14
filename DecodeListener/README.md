@@ -39,4 +39,4 @@ events.subscribe('data:received', (data) => {
 
 ## Screenshot
 
-![DecodeListener](screenshots/DecodeListener.gif)
+![DecodeListener](screenshots/screenshot.gif)
