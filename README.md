@@ -5,9 +5,12 @@ Ionic sample apps that use [Datalogic Cordova plugin](https://github.com/datalog
 ## Sample apps
 
 | Name | Description | Screenshot
-|------------|-------------|------
-| [DecodeListener](DecodeListener/) | Sample Ionic app that uses `barcodeManager.addReadListener` to display barcode data on the screen. | ![DecodeListener](DecodeListener/screenshots/DecodeListener.png)
-
+|------|-------------|-----------
+| [AutoScanTrigger](AutoScanTrigger/) | Uses [`autoScanTrigger`](https://github.com/datalogic/cordova-plugin-datalogic#autoScanTrigger) functions to toggle available triggers. | ![AutoScanTrigger](AutoScanTrigger/screenshots/screenshot.png)
+| [DecodeListener](DecodeListener/) | Uses [`barcodeManager`](https://github.com/datalogic/cordova-plugin-datalogic#barcodeManager) functions to display barcode data on the screen. | ![DecodeListener](DecodeListener/screenshots/screenshot.png)
+| [LedManager](LedManager/) | Uses [`ledManager`](https://github.com/datalogic/cordova-plugin-datalogic#ledManager) functions to turn device LEDs on and off. | ![LedManager](LedManager/screenshots/screenshot.png)
+| [SetSymbologies](SetSymbologies/) | Uses [`scannerProperties`](https://github.com/datalogic/cordova-plugin-datalogic#scannerProperties) functions to enable or disable barcode symbologies. | ![SetSymbologies](SetSymbologies/screenshots/screenshot.png)
+| [SetTriggers](SetTriggers/) | Uses [`keyboardManager`](https://github.com/datalogic/cordova-plugin-datalogic#keyboardManager) functions to enable or disable device triggers. | ![SetTriggers](SetTriggers/screenshots/screenshot.png)
 
 ## Build
 
