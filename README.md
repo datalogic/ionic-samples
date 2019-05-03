@@ -11,6 +11,7 @@ Ionic sample apps that use [Datalogic Cordova plugin](https://github.com/datalog
 | [LedManager](LedManager/) | Uses [`ledManager`](https://github.com/datalogic/cordova-plugin-datalogic#ledManager) functions to turn device LEDs on and off. | ![LedManager](LedManager/screenshots/screenshot.png)
 | [SetSymbologies](SetSymbologies/) | Uses [`scannerProperties`](https://github.com/datalogic/cordova-plugin-datalogic#scannerProperties) functions to enable or disable barcode symbologies. | ![SetSymbologies](SetSymbologies/screenshots/screenshot.png)
 | [SetTriggers](SetTriggers/) | Uses [`keyboardManager`](https://github.com/datalogic/cordova-plugin-datalogic#keyboardManager) functions to enable or disable device triggers. | ![SetTriggers](SetTriggers/screenshots/screenshot.png)
+| [Wedge](Wedge/) | Uses [`scannerProperties`](https://github.com/datalogic/cordova-plugin-datalogic#scannerProperties) functions to enable or disable barcode keyboard wedge. | ![Wedge](Wedge/screenshots/screenshot.png)
 
 ## Build
 

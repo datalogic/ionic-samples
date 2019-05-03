@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+    <h3 class="title">Wedge Settings</h3>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div id="rootDiv">
+    
+    <ion-list>
+      <ion-item>
+        <ion-label>Keyboard Wedge</ion-label>
+        <ion-toggle [(ngModel)]="keyboardWedge.enable"  checked="{{ keyboardWedge.enable }}" ></ion-toggle>
+      </ion-item>
+    </ion-list>
+
+  </div>
+
+  <div class="btn-center"> <button ion-button  round (click)="wedge()" >Save Changes</button> </div>
+  <br/> <br/> 
+
+</ion-content>

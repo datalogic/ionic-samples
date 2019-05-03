@@ -1,0 +1,7 @@
+{
+  "name": "ionic-sample-app-wedge",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
