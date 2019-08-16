@@ -1,6 +1,6 @@
 # ionic-samples
 
-Ionic sample apps that use [Datalogic Cordova plugin](https://github.com/datalogic/cordova-plugin-datalogic). Pre-compiled APKs are provided in [releases](https://github.com/datalogic/ionic-samples/releases).
+[Ionic](https://ionicframework.com/) sample apps that use the [Datalogic Cordova plugin](https://github.com/datalogic/cordova-plugin-datalogic). Pre-compiled APKs are provided in [releases](https://github.com/datalogic/ionic-samples/releases).
 
 ## Sample apps
 
